@@ -6,30 +6,31 @@
 --------------------Configuration: mac - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\BUTJE\AppData\Local\Temp\RSP2C74.tmp" with contents
+Creating temporary file "C:\Users\BUTJE\AppData\Local\Temp\RSP7281.tmp" with contents
 [
-/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/mac.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
-"D:\OPEN GL PROJECT\mac\mac.cpp"
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/mac.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
 "D:\OPEN GL PROJECT\mac\load.cpp"
+"D:\OPEN GL PROJECT\mac\mac.cpp"
 ]
-Creating command line "cl.exe @C:\Users\BUTJE\AppData\Local\Temp\RSP2C74.tmp" 
-Creating temporary file "C:\Users\BUTJE\AppData\Local\Temp\RSP2C75.tmp" with contents
+Creating command line "cl.exe @C:\Users\BUTJE\AppData\Local\Temp\RSP7281.tmp" 
+Creating temporary file "C:\Users\BUTJE\AppData\Local\Temp\RSP7282.tmp" with contents
 [
-kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/mac.pdb" /debug /machine:I386 /out:"Debug/mac.exe" /pdbtype:sept 
-".\Debug\mac.obj"
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/mac.pdb" /debug /machine:I386 /out:"Debug/mac.exe" /pdbtype:sept 
 ".\Debug\load.obj"
+".\Debug\mac.obj"
 ]
-Creating command line "link.exe @C:\Users\BUTJE\AppData\Local\Temp\RSP2C75.tmp"
+Creating command line "link.exe @C:\Users\BUTJE\AppData\Local\Temp\RSP7282.tmp"
 <h3>Output Window</h3>
 Compiling...
-mac.cpp
 load.cpp
+d:\open gl project\mac\load.cpp(244) : warning C4508: 'main' : function should return a value; 'void' return type assumed
+mac.cpp
 Linking...
 
 
 
 <h3>Results</h3>
-mac.exe - 0 error(s), 0 warning(s)
+mac.exe - 0 error(s), 1 warning(s)
 </pre>
 </body>
 </html>
